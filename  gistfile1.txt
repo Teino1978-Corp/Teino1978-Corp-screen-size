@@ -1,0 +1,10 @@
+/*
+    Drop this right after your document.ready statement and you can accurately use screenWidth and screenHeight to do dynamic calculations
+*/
+screenWidth = window.innerWidth
+    || document.documentElement.clientWidth
+    || document.body.clientWidth;
+
+    screenHeight = window.innerHeight
+    || document.documentElement.clientHeight
+    || document.body.clientHeight;
